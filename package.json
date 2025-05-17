@@ -12,13 +12,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/cojocaru-david/portfolio.git"
+    "url": "https://github.com/Coding4Hours/portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/cojocaru-david/portfolio/issues"
+    "url": "https://github.com/Coding4Hours/portfolio/issues"
   },
-  "homepage": "https://cojocarudavid.me",
-  "name": "cojocarudavid.me",
+  "homepage": "https://coding4hours-portfolio.netlify.app",
+  "name": "Coding4hours Portfolio",
   "type": "module",
   "version": "1.0.6",
   "private": false,
