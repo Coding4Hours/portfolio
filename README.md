@@ -1,1 +1,1 @@
-a really crappy blog
+a really crappy portfolio
