@@ -1,4 +1,5 @@
 ---
+import LikePost from "@/components/LikePost.astro";
 import Breadcrumbs from "@/components/Breadcrumbs.astro";
 import Link from "@/components/Link.astro";
 import PostHead from "@/components/PostHead.astro";
@@ -225,6 +226,9 @@ const currentUrl = Astro.url;
             <Icon name="line-md:github" class="size-4" />
           </Link>
           to support this project and help it grow. Your support means the world!
+      </div>
+              <div class="mt-4 flex items-center gap-2 justify-center">
+          <LikePost post={post} />
         </div>
       </div>
     </aside>

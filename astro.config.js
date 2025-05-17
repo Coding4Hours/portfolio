@@ -23,7 +23,7 @@ import tailwindcss from "@tailwindcss/vite";
 import netlify from "@astrojs/netlify";
 
 export default defineConfig({
-	site: "https://www.cojocarudavid.me",
+	site: "https://coding4hours-portfolio.netlify.app",
 
 	integrations: [
 		expressiveCode({
