@@ -80,7 +80,7 @@ export const technologies: Technologies = {
 		{ text: "Visual Studio Code", logo: "mdi:visual-studio-code" },
 		{ text: "Git", logo: "mdi:git" },
 		{ text: "Neovim", logo: "mdi:neovim" },
-		{ text: "Docker", logo: "Docker" },
+		{ text: "Docker", logo: "mdi:docker" },
 	],
 	"Hosting and Cloud Services": [
 		{ text: "Cloudflare", logo: "cib:cloudflare" },

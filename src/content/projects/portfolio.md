@@ -2,7 +2,7 @@
 name: 'Portfolio'
 description: 'My portfolio/website.'
 tags: ['portfolio', 'website', 'personal']
-image: '../../../public/static/portfolio.png'
+image: '../../../public/static/logo.png'
 link: 'https://github.com/Coding4Hours/portfolio'
 startDate: '2025-5-16'
 endDate: '2025-5-17'
