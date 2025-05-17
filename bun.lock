@@ -15,7 +15,7 @@
         "@expressive-code/plugin-collapsible-sections": "^0.41.2",
         "@expressive-code/plugin-line-numbers": "^0.41.2",
         "@fingerprintjs/fingerprintjs": "^4.6.2",
-        "@iconify-json/line-md": "^1.2.7",
+        "@iconify-json/line-md": "^1.2.8",
         "@iconify-json/lucide": "^1.2.40",
         "@iconify-json/mdi": "^1.2.3",
         "@neondatabase/serverless": "^1.0.0",
@@ -234,7 +234,7 @@
 
     "@floating-ui/utils": ["@floating-ui/utils@0.2.9", "", {}, "sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg=="],
 
-    "@iconify-json/line-md": ["@iconify-json/line-md@1.2.7", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-ps7izJ+UwvFGWhbqNQ24JmbzRFIqTG3riesqfnwfPIwxa0TCIvngQdn0M6wv8EyidgWlko3CcBsPkGl49hqTdA=="],
+    "@iconify-json/line-md": ["@iconify-json/line-md@1.2.8", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-jWFsu6OZ1xAd4U0MLc/dgawC8nCbSn+a+WjTv+luiihpb6rrGLMw+Vy3wQ01hGf77v+fwt8sTvwm6K9zN3r4vQ=="],
 
     "@iconify-json/lucide": ["@iconify-json/lucide@1.2.44", "", { "dependencies": { "@iconify/types": "*" } }, "sha512-lOwXoOtkFm4Zj1duPj5xqhPKKMUvxVRMfIHi0YDfwLjEEgrhzsJZ4JCpE119L8P8p6zi4on4b9cPZdVXCUuDoQ=="],
 

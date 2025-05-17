@@ -144,6 +144,10 @@ export const SOCIAL_LINKS: SocialLink[] = [
 		href: "/rss.xml",
 		label: "RSS",
 	},
+	{
+		href: "https://buymeacoffee.com/coding4hours",
+		label: "BuyMeCoffee",
+	},
 ];
 
 export const ICON_MAP: IconMap = {
@@ -151,6 +155,7 @@ export const ICON_MAP: IconMap = {
 	GitHub: "lucide:github",
 	Email: "lucide:mail",
 	RSS: "lucide:rss",
+	BuyMeCoffee: "line-md:buy-me-a-coffee",
 };
 
 export interface Category {
