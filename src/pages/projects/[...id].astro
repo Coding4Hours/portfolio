@@ -1,39 +1,39 @@
 ---
-import Breadcrumbs from '@/components/Breadcrumbs.astro'
-import TableOfContents from '@/components/TableOfContents.astro'
-import { badgeVariants } from '@/components/ui/badge'
-import Layout from '@/layouts/Layout.astro'
-import { getAllProjects } from '@/lib/data-utils'
-import { Icon } from 'astro-icon/components'
-import { Image } from 'astro:assets'
-import { render } from 'astro:content'
-import PageHead from '@/components/PageHead.astro'
+import Breadcrumbs from "@/components/Breadcrumbs.astro";
+import TableOfContents from "@/components/TableOfContents.astro";
+import { badgeVariants } from "@/components/ui/badge";
+import Layout from "@/layouts/Layout.astro";
+import { getAllProjects } from "@/lib/data-utils";
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import { render } from "astro:content";
+import PageHead from "@/components/PageHead.astro";
 
 export async function getStaticPaths() {
-  const projects = await getAllProjects()
-  return projects.map((project) => ({
-    params: { id: project.id },
-    props: project,
-  }))
+	const projects = await getAllProjects();
+	return projects.map((project) => ({
+		params: { id: project.id },
+		props: project,
+	}));
 }
 
-const project = Astro.props
-const { Content, headings } = await render(project)
+const project = Astro.props;
+const { Content, headings } = await render(project);
 
 const structuredData = {
-  '@context': 'https://schema.org',
-  '@type': 'Projects',
-  headline: project.data.name,
-  datePublished: project.data.startDate || '',
-  dateModified: project.data.endDate || project.data.startDate || '',
-  author: {
-    '@type': 'Person',
-    name: 'Author',
-  },
-  image: new URL(`/image/${project.id}.png`, Astro.site).toString(),
-  keywords: project.data.tags ? project.data.tags.join(', ') : '',
-  description: project.data.description || '',
-}
+	"@context": "https://schema.org",
+	"@type": "Projects",
+	headline: project.data.name,
+	datePublished: project.data.startDate || "",
+	dateModified: project.data.endDate || project.data.startDate || "",
+	author: {
+		"@type": "Person",
+		name: "Author",
+	},
+	image: new URL(`/image/${project.id}.png`, Astro.site).toString(),
+	keywords: project.data.tags ? project.data.tags.join(", ") : "",
+	description: project.data.description || "",
+};
 const currentUrl = Astro.url;
 ---
 
@@ -63,25 +63,6 @@ const currentUrl = Astro.url;
           {project.data.name}
         </h1>
 
-        <div class="flex flex-wrap justify-start gap-2">
-          {
-            project.data.tags && project.data.tags.length > 0 ? (
-              project.data.tags.map((tag) => (
-                <a
-                  href={`/tags/${tag}`}
-                  class={badgeVariants({ variant: 'secondary' })}
-                >
-                  <Icon name="lucide:hash" class="size-3" />
-                  {tag}
-                </a>
-              ))
-            ) : (
-              <span class="text-muted-foreground text-sm">
-                No tags available
-              </span>
-            )
-          }
-        </div>
       </div>
     </section>
 
