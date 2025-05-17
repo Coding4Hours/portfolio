@@ -18,6 +18,7 @@ import {
 	SiDiscord,
 	SiSpotify,
 	SiArchlinux,
+	SiFishshell,
 	SiDocker,
 	SiApache,
 	SiBrave,
@@ -28,6 +29,7 @@ import {
 } from "react-icons/si";
 
 export const iconMap: { [key: string]: IconType } = {
+	"mdi:fish": SiFishshell,
 	"mdi:language-html5": SiHtml5,
 	"mdi:language-javascript": SiJavascript,
 	"mdi:language-css3": SiCss3,
@@ -64,6 +66,7 @@ export type Technologies = {
 	"Web Servers": Category[];
 	"Other Software": Category[];
 	"Python Libraries": Category[];
+	"CLI Tools": Category[];
 };
 
 export const technologies: Technologies = {
@@ -80,8 +83,9 @@ export const technologies: Technologies = {
 		{ text: "Visual Studio Code", logo: "mdi:visual-studio-code" },
 		{ text: "Git", logo: "mdi:git" },
 		{ text: "Neovim", logo: "mdi:neovim" },
-		{ text: "Docker", logo: "Docker" },
+		{ text: "Docker", logo: "mdi:docker" },
 	],
+	"CLI Tool": [{ text: "Fish", logo: "mdi:fish" }],
 	"Hosting and Cloud Services": [
 		{ text: "Cloudflare", logo: "cib:cloudflare" },
 		{ text: "Netlify", logo: "cib:netlify" },
