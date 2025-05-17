@@ -18,9 +18,93 @@ import {
 	SiDiscord,
 	SiSpotify,
 	SiArchlinux,
+	SiDocker,
 	SiApache,
 	SiBrave,
+	SiDebian,
+	SiDeno,
+	SiFastapi,
+	SiNeovim,
 } from "react-icons/si";
+
+export const iconMap: { [key: string]: IconType } = {
+	"mdi:language-html5": SiHtml5,
+	"mdi:language-javascript": SiJavascript,
+	"mdi:language-css3": SiCss3,
+	"simple-icons:astro": SiAstro,
+	"mdi:tailwind": SiTailwindcss,
+	"cib:apache": SiApache,
+	"mdi:git": SiGit,
+	"cib:cloudflare": SiCloudflare,
+	"mdi:fastapi": SiFastapi,
+	"cib:netlify": SiNetlify,
+	"mdi:docker": SiDocker,
+	"mdi:ubuntu": SiUbuntu,
+	"mdi:language-lua": SiLua,
+	"mdi:nodejs": SiNodedotjs,
+	"mdi:discord": SiDiscord,
+	"mdi:spotify": SiSpotify,
+	"cib:brave": SiBrave,
+	"mdi:visual-studio-code": FileCode,
+	"mdi:windows": LucideAppWindow,
+	"mdi:visual-studio": Code,
+	"mdi:language-java": FaJava,
+	"mdi:arch": SiArchlinux,
+	"mdi:language-typescript": SiTypescript,
+	"mdi:neovim": SiNeovim,
+	"mdi:deno": SiDeno,
+	"mdi:debian": SiDebian,
+};
+export type Technologies = {
+	"Web Development": Category[];
+	"Development Tools": Category[];
+	"Hosting and Cloud Services": Category[];
+	"Operating Systems": Category[];
+	"Other Programming Languages and Technologies": Category[];
+	"Web Servers": Category[];
+	"Other Software": Category[];
+	"Python Libraries": Category[];
+};
+
+export const technologies: Technologies = {
+	"Python Libraries": [{ text: "FastApi", logo: "mdi:fastapi" }],
+	"Web Development": [
+		{ text: "Typescript", logo: "mdi:language-typescript" },
+		{ text: "HTML", logo: "mdi:language-html5" },
+		{ text: "JavaScript", logo: "mdi:language-javascript" },
+		{ text: "CSS", logo: "mdi:language-css3" },
+		{ text: "Astro", logo: "simple-icons:astro" },
+		{ text: "Tailwind CSS", logo: "mdi:tailwind" },
+	],
+	"Development Tools": [
+		{ text: "Visual Studio Code", logo: "mdi:visual-studio-code" },
+		{ text: "Git", logo: "mdi:git" },
+		{ text: "Neovim", logo: "mdi:neovim" },
+		{ text: "Docker", logo: "Docker" },
+	],
+	"Hosting and Cloud Services": [
+		{ text: "Cloudflare", logo: "cib:cloudflare" },
+		{ text: "Netlify", logo: "cib:netlify" },
+	],
+	"Operating Systems": [
+		{ text: "Windows", logo: "mdi:windows" },
+		{ text: "Ubuntu", logo: "mdi:ubuntu" },
+		{ text: "Arch", logo: "mdi:arch" },
+		{ text: "Debian", logo: "mdi:debian" },
+	],
+	"Other Programming Languages and Technologies": [
+		{ text: "Lua", logo: "mdi:language-lua" },
+		{ text: "Java", logo: "mdi:language-java" },
+		{ text: "Deno", logo: "mdi:deno" },
+		{ text: "Node.js", logo: "mdi:nodejs" },
+	],
+	"Web Servers": [{ text: "Apache", logo: "cib:apache" }],
+	"Other Software": [
+		{ text: "Discord", logo: "mdi:discord" },
+		{ text: "Spotify", logo: "mdi:spotify" },
+		{ text: "Brave", logo: "cib:brave" },
+	],
+};
 
 export const SITE: Site = {
 	title: "Coding4Hours",
@@ -73,71 +157,3 @@ export interface Category {
 	text: string;
 	logo: string;
 }
-
-export const iconMap: { [key: string]: IconType } = {
-	"mdi:language-html5": SiHtml5,
-	"mdi:language-javascript": SiJavascript,
-	"mdi:language-css3": SiCss3,
-	"simple-icons:astro": SiAstro,
-	"mdi:tailwind": SiTailwindcss,
-	"cib:apache": SiApache,
-	"mdi:git": SiGit,
-	"cib:cloudflare": SiCloudflare,
-	"cib:netlify": SiNetlify,
-	"mdi:ubuntu": SiUbuntu,
-	"mdi:language-lua": SiLua,
-	"mdi:nodejs": SiNodedotjs,
-	"mdi:discord": SiDiscord,
-	"mdi:spotify": SiSpotify,
-	"cib:brave": SiBrave,
-	"mdi:visual-studio-code": FileCode,
-	"mdi:windows": LucideAppWindow,
-	"mdi:visual-studio": Code,
-	"mdi:language-java": FaJava,
-	"mdi:arch": SiArchlinux,
-	"mdi:language-typescript": SiTypescript,
-};
-export type Technologies = {
-	"Web Development": Category[];
-	"Development Tools": Category[];
-	"Hosting and Cloud Services": Category[];
-	"Operating Systems": Category[];
-	"Other Programming Languages and Technologies": Category[];
-	"Web Servers": Category[];
-	"Other Software": Category[];
-};
-
-export const technologies: Technologies = {
-	"Web Development": [
-		{ text: "Typescript", logo: "mdi:language-typescript" },
-		{ text: "HTML", logo: "mdi:language-html5" },
-		{ text: "JavaScript", logo: "mdi:language-javascript" },
-		{ text: "CSS", logo: "mdi:language-css3" },
-		{ text: "Astro", logo: "simple-icons:astro" },
-		{ text: "Tailwind CSS", logo: "mdi:tailwind" },
-	],
-	"Development Tools": [
-		{ text: "Visual Studio Code", logo: "mdi:visual-studio-code" },
-		{ text: "Git", logo: "mdi:git" },
-	],
-	"Hosting and Cloud Services": [
-		{ text: "Cloudflare", logo: "cib:cloudflare" },
-		{ text: "Netlify", logo: "cib:netlify" },
-	],
-	"Operating Systems": [
-		{ text: "Windows", logo: "mdi:windows" },
-		{ text: "Ubuntu", logo: "mdi:ubuntu" },
-		{ text: "Arch", logo: "mdi:arch" },
-	],
-	"Other Programming Languages and Technologies": [
-		{ text: "Lua", logo: "mdi:language-lua" },
-		{ text: "Java", logo: "mdi:language-java" },
-		{ text: "Node.js", logo: "mdi:nodejs" },
-	],
-	"Web Servers": [{ text: "Apache", logo: "cib:apache" }],
-	"Other Software": [
-		{ text: "Discord", logo: "mdi:discord" },
-		{ text: "Spotify", logo: "mdi:spotify" },
-		{ text: "Brave", logo: "cib:brave" },
-	],
-};
