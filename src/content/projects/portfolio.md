@@ -7,7 +7,7 @@ link: 'https://github.com/Coding4Hours/portfolio'
 startDate: '2025-5-16'
 endDate: '2025-5-17'
 ---
-## Portfolio: my crappy portfolio
+## My crappy portfolio
 
 ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
