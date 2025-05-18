@@ -8,4 +8,5 @@ startDate: '2025-5-16'
 endDate: '2025-5-17'
 ---
 ## Portfolio: my crappy portfolio
-This is my really shitty portfolio. It has a blog, a list of my skills, an about me, and projects.
+
+This is my really **bad** portfolio. It has a blog, a list of my skills, an about me, and projects.
