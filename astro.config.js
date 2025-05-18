@@ -108,5 +108,7 @@ export default defineConfig({
 		remarkPlugins: [remarkMath, remarkEmoji, remarkSectionize],
 	},
 
-	adapter: netlify(),
+	adapter: netlify({
+    edgeMiddleware: true,
+  }),
 });
