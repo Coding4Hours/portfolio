@@ -85,7 +85,7 @@ export const technologies: Technologies = {
 		{ text: "Neovim", logo: "mdi:neovim" },
 		{ text: "Docker", logo: "mdi:docker" },
 	],
-	"CLI Tool": [{ text: "Fish", logo: "mdi:fish" }],
+	"CLI Tools": [{ text: "Fish", logo: "mdi:fish" }],
 	"Hosting and Cloud Services": [
 		{ text: "Cloudflare", logo: "cib:cloudflare" },
 		{ text: "Netlify", logo: "cib:netlify" },
