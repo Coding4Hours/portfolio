@@ -19,4 +19,4 @@ This is my really **bad** portfolio. It has a blog, a list of my skills, an abou
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Coding4Hours/portfolio/blob/main/LICENSE) file for details.
