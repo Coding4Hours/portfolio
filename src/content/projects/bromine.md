@@ -12,4 +12,16 @@ endDate: '2025-12-31'
 ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Bromine is a web proxy designed from the top to bottom to be sleek and minimal. It is aimed at ending web censorship.
+Bromine is a web proxy mainly powered by scramjet. With instant load times and feature-packed settings, Bromine is one of the best proxy sites out there.
+
+## Features
+> * Helpful and engaging community
+> * Sick Themes - you cant mess with rose pine man
+> * Browsing History
+> * Sick UI
+> * Tabs
+> *  many other cool things
+
+ok hurry up and join you monkey
+discord https://discord.gg/5t3K6UpHMK
+bromine https://bromine.pages.dev
