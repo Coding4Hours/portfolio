@@ -4,7 +4,7 @@ function BuyMeCoffee({ classname }: { classname?: string }) {
 	return (
 		<>
 			<a
-				href="https://buymeacoffee.com/coding4hours"
+				href="https://learningbuildingroughly.com/bnvbuhirid?key=cc8b01f5fa63d7adafc8cf1d94b29138"
 				target="_blank"
 				className={cn(
 					"border relative group w-36 mx-auto cursor-pointer h-32 grid place-content-center p-10 py-14 bg-primary  rounded-md  overflow-hidden",
