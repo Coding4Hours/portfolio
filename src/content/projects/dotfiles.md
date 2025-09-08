@@ -5,7 +5,7 @@ tags: ['dots', 'dotfiles', 'personal']
 image: '../../../public/static/dotfiles.png'
 link: 'https://github.com/Coding4Hours/dotfiles'
 startDate: '1970-01-01'
-endDate: '292277026596-12-04'
+endDate: '2038-01-19'
 ---
 ## My Dotfiles
 
