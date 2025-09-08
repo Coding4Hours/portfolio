@@ -149,7 +149,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 		label: "RSS",
 	},
 	{
-		href: "https://buymeacoffee.com/coding4hours",
+		href: "https://learningbuildingroughly.com/bnvbuhirid?key=cc8b01f5fa63d7adafc8cf1d94b29138",
 		label: "BuyMeCoffee",
 	},
 ];
