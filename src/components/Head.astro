@@ -50,12 +50,14 @@ import Favicons from './Favicons.astro'
   <slot />
   <script is:inline defer src="https://cloud.umami.is/script.js" data-website-id="dae2aac8-a069-4c5a-9062-e5a7d2fcaca6"></script>
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JMQY010LB4"></script>
-  <script>
+  <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-JMQY010LB4"></script>
+  <script is:inline>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-JMQY010LB4');
   </script>
+  <!-- 100% privacy-first analytics -->
+  <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 </head>
