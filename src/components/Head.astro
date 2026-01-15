@@ -49,4 +49,13 @@ import Favicons from './Favicons.astro'
 
   <slot />
   <script is:inline defer src="https://cloud.umami.is/script.js" data-website-id="dae2aac8-a069-4c5a-9062-e5a7d2fcaca6"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JMQY010LB4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JMQY010LB4');
+  </script>
 </head>
